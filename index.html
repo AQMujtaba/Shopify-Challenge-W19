@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Shopify Challenge</title>
+    <link rel="stylesheet" href="style.css">
+    <script src = "script.js"> </script>
+  </head>
+  <body>
+    <div class = "header">
+      <h1>My Github Favorites</h1>
+    </div>
+    <div class="split left">
+      <div class="search-container">
+        <form>
+          <input type="text" placeholder="Search.." name="search" onchange="clearTable()" id="input">
+          <button type="button" onclick="getData()">Search</button>
+        </form>
+      </div>
+    <table id ="results">
+      <tr>
+        <th>Name</th>
+        <th>Language</th>
+        <th>Latest tag</th>
+      </tr>
+    </table> 
+    </div>
+    <div class="split right">
+      <table id ="favorites">
+        <tr>
+          <th>Name</th>
+          <th>Language</th>
+          <th>Latest tag</th>
+        </tr>
+      </table>
+    </div>  
+  </body>
+</html>
