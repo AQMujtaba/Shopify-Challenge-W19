@@ -1,4 +1,4 @@
-# shopify-challenge
+# Shopify-Challenge-W19
 
 ### front-end challenge for W19
 
